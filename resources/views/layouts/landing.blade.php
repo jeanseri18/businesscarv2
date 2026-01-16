@@ -160,7 +160,9 @@
                     <h4 class="font-semibold mb-4">Contact</h4>
                     <ul class="space-y-2 text-gray-400">
                         <li><i class="fas fa-envelope mr-2"></i>contact@africabusinesscard.com</li>
-                        <li><i class="fas fa-phone mr-2"></i>+225 XX XX XX XX</li>
+                        <li><i class="fas fa-phone mr-2"></i>+225 07 08 339 194</li>
+                        <li><i class="fas fa-phone mr-2"></i>+225 05 76 222 217</li>
+                        <li><i class="fas fa-phone mr-2"></i>+225 01 41 930 608</li>
                         <li class="flex space-x-4 mt-4">
                             <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-whatsapp text-xl"></i></a>
                             <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook text-xl"></i></a>
@@ -171,7 +173,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 Africa Business Card. Tous droits réservés.</p>
+                <p>&copy; 2026 Africa Business Card Côte d'Ivoire, Ivoire TPS SARL Tous droits réservés.</p>
             </div>
         </div>
     </footer>
