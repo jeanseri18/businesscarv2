@@ -3,7 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Support\Facades\Password;
+// use Illuminate\Support\Facades\Password;
 
 class ConnexionRequest extends FormRequest
 {
@@ -24,7 +24,7 @@ class ConnexionRequest extends FormRequest
     {
         return [
             'email' =>['required', 'string', 'email:rfc,dns', 'max:255'],
-            'password'=>['required', 'string', Password::min(8)],
+            'password'=>['required', 'string', 'min:8'],
         ];
     }
 
