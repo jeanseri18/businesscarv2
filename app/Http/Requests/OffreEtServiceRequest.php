@@ -30,7 +30,7 @@ class OffreEtServiceRequest extends FormRequest
             'prix'=>['required', 'numeric'],
             'pdf_path'=>['nullable', 'file', 'mimes:pdf', 'max:5120'],
             'photo_path'=>['nullable', 'image', 'mimes:jpeg,png,jpg,gif', 'max:2048'],
-            'detail'=>['required', 'text']
+            'detail'=>['required', 'string']
         ];
     }
 
