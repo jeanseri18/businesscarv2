@@ -34,7 +34,7 @@ class InscriptionRequest extends FormRequest
             'accept_terms'=>['required', 'accepted'],
             'code_commercial'=>['nullable', 'string', 'max:20',
                 // si le role est commercial alors le code_commercial est requis 
-                Rule::requiredIf(fn () => $this->role === 'commercial'),
+                // Rule::requiredIf(fn () => $this->role === 'commercial'),
             ]
         ];
     }
